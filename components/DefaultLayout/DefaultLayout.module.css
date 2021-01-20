@@ -1,0 +1,55 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 6px;
+}
+
+.menu {
+  padding-left: 64px;
+  width: 50%;
+}
+
+.github {
+  position: absolute;
+  right: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon:hover {
+  background-color: #003d75;
+  border-radius: 50%;
+}
+
+.breadcrumb {
+  margin: 16px 0;
+}
+
+.content-area {
+  padding: 0 50px;
+}
+
+
+.footer {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
