@@ -36,5 +36,6 @@ jobs:
         key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
+        PAGES_CNAME: tools.haku.dev
         FOLDER: out # The folder the action should deploy.
         CLEAN: true # Automatically remove deleted files from the deploy branch
