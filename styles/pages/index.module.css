@@ -1,0 +1,16 @@
+.home {
+  margin-top: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content : center;
+}
+
+.logo {
+  width: 240px;
+  height: 240px;
+}
+
+.button {
+  display: block;
+  margin: 20px auto 0 auto;
+}
