@@ -1,6 +1,6 @@
 import { Input, Typography } from "antd";
 import { useState } from "react";
-import styles from "./WordsTolInes.module.css";
+import styles from "./WordsToLines.module.css";
 
 const { TextArea } = Input;
 const { Text } = Typography;
