@@ -1,0 +1,13 @@
+.search {
+  background-color: #001529;
+  border-color: #003d75;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.search input {
+  background-color: #001529;
+  color: white;
+}
