@@ -6,3 +6,7 @@
 .column {
   width: 45vw;
 }
+
+.textarea {
+  resize: none;
+}

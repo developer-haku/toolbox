@@ -22,18 +22,18 @@ const WordsToLines = () => {
       <div className={styles.column}>
         <Text>Input</Text>
         <TextArea
+          className={styles.textarea}
           value={state.userInput}
           onChange={update}
-          placeholder="Controlled autosize"
-          autoSize={{ minRows: 3, maxRows: 5 }}
+          placeholder="String input"
+          autoSize={true}
         />
       </div>
       <div className={styles.column}>
         <Text>Output</Text>
         <TextArea
+          className={styles.textarea}
           value={state.output}
-          onChange={update}
-          placeholder="Controlled autosize"
           autoSize={true}
         />
       </div>
